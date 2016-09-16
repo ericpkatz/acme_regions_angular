@@ -1,0 +1,15 @@
+{
+  "name": "acme_sales_angular",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "SYNC=true DATABASE_URL=postgres://localhost/acme_sales_db nodemon --ignore 'browser' server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular-ui-router": "^1.0.0-beta.2"
+  }
+}
